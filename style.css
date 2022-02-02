@@ -5,6 +5,7 @@ body{
 .name-bold{
     font-size: 45px;
     color: blue;
+    font-weight: bold;
 }
 
 .orange-color{
@@ -18,11 +19,17 @@ body{
     
 }
 .half-width img{
-    width: 80%;
+    width: 70%;
 
 }
 .top-header{
     background-image: url("images/top-banner.png");
-    height: 400px;
+    height: 200px;
     background-repeat: no-repeat;
+}
+.three-width{
+    width: 25%;
+    margin: 2%;
+    padding: 2%;
+    float: left;
 }
