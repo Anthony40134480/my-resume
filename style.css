@@ -6,6 +6,7 @@ body{
     font-size: 45px;
     color: blue;
     font-weight: bold;
+    text-align: center;
 }
 
 .orange-color{
@@ -32,4 +33,49 @@ body{
     margin: 2%;
     padding: 2%;
     float: left;
+    box-shadow: 10px 10px 45px lime;
+    height: 215px;
+    border-radius: 15px;
+    border-left: 5px solid;
+    border-image: linear-gradient(180deg,lime,green);
+    border-image-slice: 1;
 }
+.position-color{
+    color: salmon;
+}
+.education-box{
+    box-shadow: 10px 10px 45px yellow;
+    border-radius: 15px;
+    border-left: 5px solid;
+    border-image: linear-gradient(180deg,yellowgreen,yellow);
+    border-image-slice: 1;
+}
+.education-area{
+    height:100%;
+    width: 100%;
+    
+}
+.education-word{
+    text-align: center;
+    padding-top: 25%;
+    
+    }
+    h2{
+        text-align: center;
+        color: blue;
+    }
+    .skill-area{
+        height: 100%;
+        width: 100%;
+    }
+    .personal-area{
+        text-align: center;
+        
+        
+
+    }
+    .personal-color{
+        font-size: 45px;
+        color: blue;
+        font-weight: bold;
+    }
